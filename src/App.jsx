@@ -2,8 +2,7 @@
 import { useState } from "react";
 import "./App.css";
 
-const API_URL =
-  import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = "https://tweet-brand-backend-node.vercel.app";
 
 function App() {
   const [form, setForm] = useState({
